@@ -1,0 +1,20 @@
+{
+  "name": "williamgrant/planxty-json",
+  "description": "Add a JSON endpoint to a Planxty site",
+  "type": "planxty-ext",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Grant-Buckley",
+      "email": "hello@william.scot"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Planxty\\": "src"
+    }
+  },
+  "require": {
+    "williamgrant/planxty": "*"
+  }
+}
